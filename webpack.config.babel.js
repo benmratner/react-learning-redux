@@ -52,7 +52,7 @@ const productionConfig = {
 }
 
 const devConfig = {
-    devtool: 'eval-source-map',
+    devtool: 'cheap-source-map',
     devServer: {
         contentBase: PATHS.build,
         hot: true,
